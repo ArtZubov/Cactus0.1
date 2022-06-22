@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffffff;
+}
+
+header.top_header {
+    position: fixed;
+    min-width: 1440px;
+    width: 100%;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    z-index: 100000;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+header.top_header .wrapper {
+    width: 1280px;
+    height: 50px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header.top_header .wrapper .logo a {
+    width: 250px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.top_header .wrapper .menu {
+    width: 600px;
+    height: 50px;
+}
+
+header.top_header .wrapper .menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header.top_header .wrapper .menu li {
+    list-style-type: none;
+}
+
+header.top_header .wrapper .menu li a {
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    text-decoration: none;
+}
+
+header.top_header .wrapper .button a {
+    width: 160px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1CBFA2;
+    border-radius: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main.main {
+    position: relative;
+    min-width: 1440px;
+    width: 100%;
+    height: 2424px;
+    margin-top: 130px;
+    flex: 1 0 auto;
+}
+
+main.main .wrapper {
+    width: 1280px;
+    height: 2424px;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+main.main .wrapper .wallpaper {
+    width: 1280px;
+    height: 520px;
+
+    display: flex;
+    align-items: center;
+
+    background: #FFDBA6;
+    border-radius: 30px;
+}
+
+main.main .wrapper .wallpaper .left {
+    width: 542px;
+    height: 357px;
+    margin-left: 88px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main .wrapper .wallpaper .left .text {
+    width: 542px;
+    height: 260px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+}
+
+main.main .wrapper .wallpaper .left .button a {
+    width: 217px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1CBFA2;
+    border-radius: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main.main .wrapper .wallpaper .right {
+    width: 586px;
+    height: 430px;
+    margin-left: auto;
+}
+
+main.main .wrapper .catalog {
+    width: 1280px;
+    height: 469px;
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main .wrapper .catalog h1 {
+    width: 220px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+main.main .wrapper .catalog .products {
+    width: 1280px;
+    height: 379px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+main.main .wrapper .catalog .products section {
+    width: 305px;
+    height: 379px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+}
+
+main.main .wrapper .catalog .products img {
+    width: 305px;
+    height: 191px;
+
+    background: #FFDBA6;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main.main .wrapper .catalog .products .text {
+    width: 231px;
+    height: 71px;
+
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+main.main .wrapper .catalog .products .text h2 {
+    width: 231px;
+    height: 39px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+main.main .wrapper .catalog .products .text h3 {
+    width: 231px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+main.main .wrapper .catalog .products .button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main.main .wrapper .catalog .products .button a {
+    width: 211px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1CBFA2;
+    border-radius: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main.main .wrapper .pay {
+    width: 1280px;
+    height: 454px;
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main .wrapper .pay h1 {
+    width: 220px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+main.main .wrapper .pay .pay_picture {
+    width: 1280px;
+    height: 364px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.main .wrapper .delivery {
+    width: 1280px;
+    height: 478px;
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main .wrapper .delivery h1 {
+    width: 220px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+main.main .wrapper .delivery .delivery_picture {
+    width: 1280px;
+    height: 388px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.main .wrapper .about {
+    width: 1280px;
+    height: 343px;
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main .wrapper .about h1 {
+    width: 220px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+main.main .wrapper .about .team {
+    width: 1280px;
+    height: 264px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+main.main .wrapper .about .team section {
+    width: 256px;
+    height: 264px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main .wrapper .about .team .image {
+    width: 217px;
+    height: 217px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1CBFA2;
+    border-radius: 50%;
+}
+
+main.main .wrapper .about .team h3 {
+    width: 256px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+footer.footer {
+    position: relative;
+    min-width: 1440px;
+    width: 100%;
+    height: 110px;
+    margin-top: 110px;
+    
+    background: #FFDBA6;
+}
+
+footer.footer .wrapper {
+    width: 1250px;
+    height: 50px;
+    margin-bottom: 30px;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer.footer .wrapper .logo a {
+    width: 250px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.footer .wrapper .icons {
+    width: 144px;
+    height: 24px;
+}
+
+footer.footer .wrapper .icons ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer.footer .wrapper .icons li {
+    list-style-type: none;
+}
+
+footer.footer .wrapper .icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.footer .wrapper .button a {
+    width: 160px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1CBFA2;
+    border-radius: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    text-decoration: none;
+}

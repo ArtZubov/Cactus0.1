@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cards">
+        <div class="card">
+
+        <img src="assets\img\1 кактус 1.svg" alt="">
+        <div class="body">
+            <header>
+                <h2>Кактус1</h2>
+            </header>
+            <div class="button">Купить</div>
+        </div>
+        </div>
+        <div class="card">
+            <img src="assets\img\1 кактус 1.svg" alt="">
+            <div class="body">
+                <header>
+                    <h2>Кактус2</h2>
+                </header>
+                <div class="button">Купить</div>
+            </div>
+            </div>
+            <div class="card">
+                <img src="assets\img\1 кактус 1.svg" alt="">
+                <div class="body">
+                    <header>
+                        <h2>Кактус3</h2>
+                    </header>
+                    <div class="button">Купить</div>
+                </div>
+                <div class="card">
+                    <img src="assets\img\1 кактус 1.svg" alt="">
+                    <div class="body">
+                        <header>
+                            <h2>Кактус4</h2>
+                        </header>
+                        <div class="button">Купить</div>
+                    </div>
+                    </div>
+                    <h1>О компании</h1>
+                    <div class="cardteam">
+                        <div class="team"><img src="assets\img\Ellipse 9.jpg" alt=""></div>
+                        <div class="team"><img src="assets\img\Ellipse 9.jpg" alt=""></div>
+                        <div class="team"><img src="assets\img\Ellipse 9.jpg" alt=""></div>
+                    </div>
+        </div>
+</body>
+</html>
+
+<style>
+    body{
+        width: 1280px;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        flex: 1 1 280px;
+        margin: 10px;
+        background-color: #FFDBA6;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 16px 23px -4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 20px;
+
+    }
+    img{
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .card .body{
+        padding: 10px;
+        font-size: 14px;
+        background-color: white;
+        color: black;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .button {
+    background-color: #1CBFA2;
+    width: 25%;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+bottom: 0;
+    }
+    .cardteam{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team{
+        flex: 1 1 180px;
+        margin:10px 80px;
+    }
+</style>
