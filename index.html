@@ -1,7 +1,3 @@
-<?php
-require_once 'connect.php';
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -103,20 +99,7 @@ require_once 'connect.php';
             <th>price</th>
             
         </tr>
-        <?php 
-        $products = mysqli_query($connect, "SELECT * FROM `products`");
-        $products = mysqli_fetch_all($products);
-        foreach($products as $products) {
-        ?>
-            <tr>
-            <td><?=$products[0]?></td>
-            <td><?=$products[1]?></td>
-            <td><?=$products[2]?></td>
-            
-        </tr>
-        <?php }
-        ?>
-    </table>
+            </table>
             <section class="pay">
                 <h1>Оплата</h1>
                 <div class="pay_picture">
